@@ -1,4 +1,4 @@
-FROM nvidia/cuda:12.0-base-ubuntu20.04
+FROM nvidia/cuda:12.3.2-base-ubuntu22.04
 
 ENV LANG=C.UTF-8 LC_ALL=C.UTF-8
 ENV PATH /opt/conda/bin:$PATH
