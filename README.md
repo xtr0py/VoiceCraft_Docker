@@ -1,3 +1,6 @@
+[![Build and Push Docker Image](https://github.com/xtr0py/VoiceCraft_Docker/actions/workflows/docker-publish.yml/badge.svg)](https://github.com/xtr0py/VoiceCraft_Docker/actions/workflows/docker-publish.yml)
+
+
 This is a containerized version of VoiceCraft created by jasonppy/VoiceCraft
 
 **Origin**
