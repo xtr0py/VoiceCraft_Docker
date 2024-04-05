@@ -30,4 +30,4 @@ jobs:
           context: .
           file: ./Dockerfile
           push: true
-          tags: xtr0py/VoiceCraft_Docker:latest
+          tags: xtr0py/voicecraft_docker:latest
