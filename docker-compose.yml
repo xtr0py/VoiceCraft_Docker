@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  voicecraft:
+    build: .
+    ports:
+      - "8888:8888"
+    environment:
+      - NVIDIA_VISIBLE_DEVICES=all
+    volumes:
+      - ./VoiceCraft:/VoiceCraft
+    runtime: nvidia
+    command: jupyter notebook --ip=0.0.0.0 --port=8888 --allow-root --NotebookApp.token='' --NotebookApp.password=''
